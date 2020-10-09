@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+    url("Fonts/Booter - Zero Zero.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    color: #FFF;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom:1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-image: url("Images/Header Background.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.team-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: #FFF;
+}
+
+.team-name-large {
+    font-size: 8em;
+}
+
+/* button */
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: 0.5em 15% 2em 15%;
+    color: #FFF;
+    border: 2px solid #2D8CDB;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D8CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #777;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+.btn-member-like {
+    /* TODO */
+}
+
+/* section */
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    /* ----to make sure the insider max width would not be larger than 900 pixels */
+    max-width: 900px;
+    /* -------------- */
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.history-image {
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.tour-row {
+    border-bottom: 1px solid rgb(150, 146, 146);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 35%;
+}
+
+.tour-name {
+    width: 30%;
+}
+
+.tour-order {
+    color:gold;
+    font-weight: bold;
+    width: 22%;
+}
+
+.tour-btn {
+    align-self: flex-end;
+}
+
+.member {
+    margin: 30px;
+}
+
+.member-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.member-img {
+    height: 250px;
+    width: 250px;
+}
+
+.member-likes {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.member-liked-num {
+    font-family: "Metal Mania";
+    font-size: 2em;
+    flex-grow: 1;
+    color: #333;
+    padding-left: 40px;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.groups {
+    display: block;
+}
+
+.group {
+    margin: 30px;
+}
+
+.group-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.group-img {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+/* footer */
+.main-footer {
+    background-color: #777;
+    color: #FFF;
+    padding: 0.25em 0;
+}
+
+.footer-nav {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.footer-nav li {
+    padding: 0 2.5%;
+}
+
+.footer-nav img {
+    height: 35px;
+}
+
