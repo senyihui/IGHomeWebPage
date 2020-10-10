@@ -27,8 +27,8 @@
                     <span class="member-title">YYF</span>
                     <img class="member-img" src="Images/members/yyf.png" alt="">
                     <div class="member-likes">
-                        <span class="member-liked-num">100</span>
-                        <button class="btn btn-primary btn-member-like" type="button">Like him!</button>
+                        <span id="value-yyf" class="member-liked-num">0</span>
+                        <button id="btn-yyf" class="btn btn-primary btn-member-like" type="button">Like him!</button>
                     </div>
                 </div>
 
@@ -36,8 +36,8 @@
                     <span class="member-title">Zhou</span>
                     <img class="member-img" src="Images/members/zhou.png" alt="">
                     <div class="member-likes">
-                        <span class="member-liked-num">100</span>
-                        <button class="btn btn-primary btn-member-like" type="button">Like him!</button>
+                        <span id="value-zhou" class="member-liked-num">0</span>
+                        <button id="btn-zhou" class="btn btn-primary btn-member-like" type="button">Like him!</button>
                     </div>
                 </div>
 
@@ -45,8 +45,8 @@
                     <span class="member-title">Ferrari.430</span>
                     <img class="member-img" src="Images/members/430.png" alt="">
                     <div class="member-likes">
-                        <span class="member-liked-num">100</span>
-                        <button class="btn btn-primary btn-member-like" type="button">Like him!</button>
+                        <span id="value-430" class="member-liked-num">0</span>
+                        <button id="btn-430" class="btn btn-primary btn-member-like" type="button">Like him!</button>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@
                     <span class="member-title">Faith</span>
                     <img class="member-img" src="Images/members/faith.png" alt="">
                     <div class="member-likes">
-                        <span class="member-liked-num">100</span>
+                        <span class="member-liked-num">0</span>
                         <button class="btn btn-primary btn-member-like" type="button">Like him!</button>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     <span class="member-title">ChuaN</span>
                     <img class="member-img" src="Images/members/ChuaN.png" alt="">
                     <div class="member-likes">
-                        <span class="member-liked-num">100</span>
+                        <span class="member-liked-num">0</span>
                         <button class="btn btn-primary btn-member-like" type="button">Like him!</button>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                 </div>
                 <span class="cart-price cart-column">¥0.99</span>
                 <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="1">
+                    <input id="item-yyf" class="cart-quantity-input" type="number" value="1">
                     <button class="btn btn-danger cart-quantity-btn" type="button">Remove</button>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                 </div>
                 <span class="cart-price cart-column">¥0.99</span>
                 <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="1">
+                    <input id="item-zhou" class="cart-quantity-input" type="number" value="1">
                     <button class="btn btn-danger" type="button">Remove</button>
                 </div>
             </div>
@@ -124,7 +124,7 @@
 
         <div class="cart-total">
             <span class="cart-total-title">Total</span>
-            <span class="cart-total-price">¥1.98</span>
+            <span id="item-total-price" class="cart-total-price">¥1.98</span>
         </div>
         <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
 
@@ -145,5 +145,5 @@
         </ul>
     </footer>
 </body>
-
+<script src="app.js"></script>
 </html>
